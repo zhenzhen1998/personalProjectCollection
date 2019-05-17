@@ -1,0 +1,79 @@
+a img,body,button,div,fieldset,form,h1,h2,h3,h4,h5,h6,html,img,input,li,menu,ol,p,textarea,ul{padding:0;margin:0;border:0}
+li,ol,ul{list-style:none}
+b,em,h1,h2,h3,h4,h5,h6,i{font-size:1em;font-weight:400;font-style:normal}
+body,button,input,select,textarea{-webkit-text-size-adjust:none;font:400 16px "Microsoft Yahei","Helvetica Neue",Arial,sans-serif;outline:0;color:#333}
+button,input[type=button],input[type=password],input[type=submit],input[type=text],textarea{-webkit-appearance:none}
+a,a:visited{text-decoration:none;color:#333}
+.img img,video{vertical-align:middle}
+body{margin:0 auto;background:#fff}
+.btn{display:inline-block;vertical-align:middle}
+.fl{float:left;}
+.fr{float: right;}
+.clear{clear:both;}
+.clear:after{content:' ';clear:both;display:block;height:0;visibility:hidden;line-height:0}
+.relative{position:relative;}
+.position{position:absolute;left:0;top:0;}
+.fixed{position:fixed;left:0;top:0;}
+.show{display:block;}
+.hide{display:none;}
+body{
+    overflow-x:hidden;
+    -webkit-text-size-adjust:none;
+}
+img{ max-width: 100%;height: auto; display: block;}
+/*去除点击时的默认事件 */
+a,button,input,div{-webkit-tap-highlight-color:rgba(0,0,0,0);tap-highlight-color:rgba(0,0,0,0);background:none;}
+input[type=button]{display:block;}
+.input_file{position:absolute;left:-100px;top:0;width:0;height:0;line-height: 0;}
+/*弹框*/
+#sbox {
+    width:100%;
+    height:100%;
+    position:fixed;
+    left:0;
+    top:0;
+    z-index: 99;
+    display:none;
+}
+.sbox_inner,#lbErr{
+    height:auto;
+    width:80%;
+    display:block;
+    margin:0 auto;
+    background:rgba(0,0,0,0.8);
+    text-align: center;
+    color:#ffffff;
+    margin-top:200px;
+    font-size:15px;
+    padding: 10px;
+    border: 1px solid #dedede;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+*,*::after,*::before {
+	box-sizing: border-box;
+}
+body{
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+}
+.container{
+    /* height: 100vh;
+    min-height: 11rem;
+    position: relative;
+    width: 7.5rem;
+    background: url(../images/bg.png) no-repeat;
+    background-size: 100% 100%; */
+}
+.model{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.7);
+	top:0;
+	left: 0;
+	z-index: 10;
+}
+
